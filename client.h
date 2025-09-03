@@ -10,4 +10,4 @@ PublicKey<DCRTPoly> getClientPublicKey();
 void receiveDataFromServer(vector<Ciphertext<DCRTPoly>> encData, vector<EvalKey<DCRTPoly>> switchKey);
 void receiveDataFromDevice(vector<int64_t> raw_data);
 void generateClientKeys();
-extern time_point<steady_clock, steady_clock::duration> start;
+extern high_resolution_clock::time_point start;;

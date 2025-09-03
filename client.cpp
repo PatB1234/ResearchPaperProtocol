@@ -10,7 +10,7 @@ using namespace lbcrypto;
 using namespace std::chrono;
 
 KeyPair<DCRTPoly> kp1;
-time_point<steady_clock, steady_clock::duration> start; // Variables to calculate and record time taken
+high_resolution_clock::time_point start; // Variables to calculate and record time taken
 void generateClientKeys() {
     // Generate keys
     kp1 = cc->KeyGen();
