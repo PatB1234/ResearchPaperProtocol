@@ -7,3 +7,9 @@ title: "ResearchPaperProtocol"
 version: 1.0.0
 date-released: 2025-09-02
 url: "https://github.com/PatB1234/ResearchPaperProtocol"
+references:
+  - type: article
+    title: "Benchmarking Homomorphic Encryption on Low-Power Devices: Trade-offs Between PHE and FHE"
+    authors:
+        given-names: "Khatusuriya, Het and Patel, Dhvani and Parmar, Martin"
+    year:2025
